@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Facebook
+    </title>
+    <h1>welcome to Facebook</h1>
+
+<body>
+    <form name="myform" onsubmit="Abhishek()">
+    Email:<input type="text" name="Email" placeholder="enter the email" required><br><br>
+    Password:<input type="text" name="Password" placeholder="enter the password" required><br>
+    <input type="button" onclick="Abhishek()" value="submit">
+    </form>
+</body>
+</head>
+<script>
+    function Abhishek() {
+        document.write(document.myform.Email.value+" "+document.myform.Password.value);
+    }
+</script>
+
+</html>

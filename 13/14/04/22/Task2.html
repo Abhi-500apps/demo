@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html>
+        <body>
+            <h1>Label Button</h1>           
+            <p id="demo"></p>
+                <button onclick="rev()">Reverse</button><br><br><br>
+                <p id="demo1"></p>
+            <button onclick="removed()">pop</button><br><br><br>
+            <p id="demo2"></p>
+                <button onclick="pu()">push</button><br><br><br>
+                
+                <script>
+                 array=[1,2,3,4,5,6];
+                function pu(){
+
+                   
+                   array.push(7);
+                   document.getElementById("demo2").innerHTML=array
+            }
+            
+                function removed(){
+                   
+                    document.getElementById("demo1").innerHTML= array.pop()
+               
+               }
+                 function rev(){
+                  
+                    document.getElementById("demo").innerHTML=array.reverse()
+                }
+       </script>
+        </body>
+    </html>

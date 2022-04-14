@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html>
+        <body>
+                <p id=" demo"></p>
+                <button onclick="number()">click</button> 
+            <script>
+                      
+                    function number(a,b){
+                    var name = window. prompt("Enter your number: "); 
+                    var name1 = window. prompt("Enter your number: ");
+                  /*  if( name%2== 0)
+                    {
+                       alert ("it is even number") 
+                    }
+                    else{
+                       alert("it is odd number")
+                    }*/
+                    result = name*name1
+                    if (result%2==0){
+                        alert("it is even")
+
+                    }
+                    else{
+                        alert("it is odd")
+                    }
+                    document.getElementById("demo").innerHTML = number ();
+                }
+
+            </script>
+        </body>
+    </html>

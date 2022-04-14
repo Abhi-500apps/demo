@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                foreach().function
+            </title>
+        </head>
+        <body>
+            <p id="demo"></p>
+            <script>
+                const array=[1,2,3,4,5,6,8];
+                let txt=" "
+                array.forEach(myFunction)
+                document.getElementById("demo").innerHTML = txt;
+                function myFunction(value, index, array) {
+                txt += value +"<br>"+index;
+                }
+                
+
+                
+            </script>
+        </body>
+    </html>
